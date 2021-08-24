@@ -23,6 +23,7 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -46,6 +47,7 @@ header nav ul {
      padding: 10px 15px;
      font-weight: lighter;
      font-size: 1.55vw;
+     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
  }
 
  header h1 {
@@ -53,7 +55,6 @@ header nav ul {
      font-size: 36px;
      color: #fce138;
      margin: 0;
-     display: inline;
  }
 
  footer {
@@ -96,7 +97,7 @@ section {
 
 .hero-cta {
     width: 35%;
-    text-align: center;
+    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -107,6 +108,7 @@ section {
 font-style: italic;
 font-size: 55px;
 color: #fce138;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
@@ -119,12 +121,12 @@ color: #fce138;
 }
 
 .hero-form h3 {
-    font-size: large;
+    font-size: 24px;
     margin: 0;
 }
 
 .hero-form p {
-    margin: 5px 0 15px;
+    margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -137,7 +139,7 @@ color: #fce138;
     margin-bottom: 15px;
 }
 
-hero-form label {
+.hero-form label {
     margin: 0 5px;
 }
 
@@ -149,12 +151,27 @@ hero-form label {
     font-size: 16px;
 }
 
+.section-title {
+    font-size: 48px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 .intro {
     text-align: center;
 }
-
-/* remove this entire CSS rule */
-
 
 .intro p {
     line-height: 1.7;
@@ -183,6 +200,12 @@ hero-form label {
     justify-content: space-between;
 }
 
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
 .step-info {
     flex: 2 70%;
     display: flex;
@@ -203,12 +226,6 @@ hero-form label {
     flex: 12;
 }
 
-.step h3 {
-    color: #024e76;
-    font-size: 46px;
-    flex: 1 30%;
-}
-
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
@@ -218,24 +235,6 @@ hero-form label {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-}
-
-.section-title {
-    font-size: 48px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .trainers {
@@ -262,14 +261,6 @@ hero-form label {
     line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 28px;
 }
@@ -294,13 +285,13 @@ hero-form label {
     flex-wrap: wrap;
 }
 
+.contact h2 {
+    color: #fce138;
+}
+
 .contact-info > * {
     flex: 1;
     margin: 15px;
-}
-
-.contact h2 {
-    color: #fce138;
 }
 
 .contact-info iframe {
@@ -348,6 +339,14 @@ hero-form label {
     color: #fce138;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 .flex-row {
     display: flex;
 }
@@ -387,7 +386,7 @@ hero-form label {
        text-align: center;
    }
 
-   .sectin-title {
+   .section-title {
        width: 80%;
    }
 
@@ -435,7 +434,7 @@ hero-form label {
         width: 100%;
     }
 
-    .sectin-title {
+    .section-title {
         width: 95%;
     }
 
